@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="10"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:weightSum="9"
+        android:layout_weight="8.4"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/logo"
+            android:padding="7dp"
+            android:id="@+id/imageviewHinh"
+            android:layout_width="110dp"
+            android:layout_height="110dp"/>
+        <LinearLayout
+            android:layout_weight="9"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#D61C1C"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:padding="5dp"
+                    android:id="@+id/txtMoTa"
+                    android:text="Số hộp:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#D61C1C"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:id="@+id/textviewSoHop"
+                    android:layout_toRightOf="@+id/txtMoTa"
+                    android:text="1392"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#D61C1C"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:padding="5dp"
+                    android:id="@+id/txtMoTa2"
+                    android:layout_toRightOf="@+id/textviewSoHop"
+                    android:text="Mã hồ sơ:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/textviewMaHoSo"
+                    android:textColor="#03A9F4"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_toRightOf="@+id/txtMoTa2"
+                    android:text="9685"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_weight="4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+
+                    android:padding="5dp"
+
+                    android:id="@+id/textviewTrichDan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="về việc ý kiến về nội dung nhiệm vụ và dự toán kinh phí lập đồ án điều chỉnh quy hoạch chung đô thị Long Điền (9685)"
+                    android:textColor="#03A9F4"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
